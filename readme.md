@@ -5,7 +5,21 @@ This is a simple Pomodoro Timer application built using Python and Tkinter. The 
 ## Installation
 
 1. Clone the repository or download the code files.
-2. Install the required dependencies by running the following command in your terminal:
+1. Create a new virtual environment. You can name it env or anything you like:
+
+   ```Shell
+      python -m venv env
+   ```
+
+   ```Shell
+      .\env\Scripts\activate
+   ```
+
+   ```Shell
+      source env/bin/activate
+   ```
+
+1. Install the required dependencies by running the following command in your terminal:
    ```shell
    pip install -r requirements.txt
    ```
@@ -28,3 +42,4 @@ This is a simple Pomodoro Timer application built using Python and Tkinter. The 
 ## Customization
 
 You can customize the duration of the work session, short break, and long break by modifying the following constants in the code:
+````
